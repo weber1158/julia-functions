@@ -6,7 +6,7 @@ function poisson_error(df_col, match; alpha=0.05)
   #       the number of matches is zero. In such a case, σ is evaluated as the upper
   #       bound of the Garwood confidence interval: Χ^2_{2, 1-α/2}/2 [Porter, 2025].
   #
-  # Reference: Porter, F. C. (2025). https://www.alphaxiv.org/abs/2509.02852v1
+  # Reference: Porter, F. C. (2025). https://www.alphaxiv.org/overview/2509.02852v1
   # 
   # Required dependencies: 
   #  - Distributions
